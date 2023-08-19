@@ -8,3 +8,4 @@
 2023-08-19 15:46:05,868 DEBUG: This is a debug message: TEXT TEST abcd [in /home/jack/Desktop/BackGroundMaker/BackGroundMaker:41]
 2023-08-19 15:46:06,120 DEBUG: This is a debug message: TEXT TEST abcd [in /home/jack/Desktop/BackGroundMaker/BackGroundMaker:41]
 2023-08-19 17:31:33,849 DEBUG: This is a debug message: TEXT TEST abcd [in /home/jack/Desktop/BackGroundMaker/app.py:41]
+2023-08-19 17:50:16,325 DEBUG: This is a debug message: TEXT TEST abcd [in /home/jack/Desktop/BackGroundMaker/app.py:41]
