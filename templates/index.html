@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Create Scrolling Text</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/Style.css') }}">
+
+</head>
+
+<body>
+
+  <div class="header">
+    <h3>Flask VideoMaker V2.1</h3>
+    <p>Below is an example of 'Type' of video this application can create. First Create a text file. You can hand write
+      it or use ChatGPT. Then you format the text in lines of five words per line. Next create a video of scrolling text
+      That is read as the text scrolls by. Then create an Image_Video which gradually fades from one image to another. A
+      image directory is required. for best results be sure all images are the same size. The last step is add the
+      Image_Video to the scrolling text.'</p>
+    <p>Avatar_Maker is included (Link is in the Black Band below) to create video introductions. This app is all ready
+      created, but not yet connected to the Flask VideoMaker</p>
+  </div>
+
+  <div class="topnav">
+    <a style="font-size: 24px;margin-left: 10%;color: #29b2f1;" href="{{ url_for('mk_background') }}">Create Background
+  
+      <h1>Generated Thumbnail</h1>
+      <img src="static/images/ThumbNails_Background.png" alt="Thumbnail Image">
+      <hr>
+
+           <video width="512" height="auto" controls>
+          <source src="static/images/long_512-768.mp4" type="video/mp4">
+      </video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video width="600" height="auto" controls>
+        <source src="static/images/assets/ThumbNails_Background.mp4" type="video/mp4">
+      </video><br />
+
+  </div>
+
+</body>
+</body>
+
+</html>
